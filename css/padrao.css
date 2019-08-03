@@ -1,0 +1,63 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.cor-padrao{
+  background: #7159c1
+}
+.cor-padrao a{
+  color: white;
+}
+
+.btn-padrao {
+  color: #fff;
+  background-color: #655792;
+  border-color: #655792;
+}
+
+main{
+  padding-top: 45px;
+}
+
+.texto-os p{
+  text-align: justify !important;
+}
+
+.produtos-apresentacao{
+  width: 50%;
+}
+
+.logo-produtos{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.parceiros{
+  background-image: url('../imagens/pessoas-conversando.jpg');
+  padding: 8rem 2rem;
+  color: white;
+}
+
+.texto-parceiros{
+  font-size: 20px;
+}
+
+.espaco-parceiros{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

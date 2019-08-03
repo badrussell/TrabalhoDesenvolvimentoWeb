@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Carlos Eduardo da Silva Smolareck">
-    <title>Empresa Linux</title>
+    <title>Deploy - nuvem para desenvolvedores</title>
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/padrao.css" />
 </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Empresa Linux</a>
+    <nav class="navbar navbar-expand-md fixed-top cor-padrao" >
+    <a class="navbar-brand" href="#">
+      <img src="./imagens/deploy.svg" />
+      Deploy
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,13 +26,13 @@
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="produtos.html">Produtos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Parceiros.html">Parceiros</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="sobre.html">Sobre</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="servicos.html">Serviços</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="solucoes.html">Soluções</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contato.html">Contato</a>
@@ -37,44 +40,40 @@
     </ul>
   </div>
 </nav>
-
 <main role="main">
-
-  <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-3">Empresa Linux</h1>
-      <p>PARCERIA, TECNOLOGIA E INOVAÇÃO</p>
+      <div class="row">
+      <div class="col-md-6 text-justify">
+        <h1 class="display-3">Deploy</h1>
+        <p>Entenda como você pode utilizar essa tecnologia para acelerar o crescimento do seu negócio, aproveitando benefícios como inovação, flexibilidade e economia.</p>
+      </div>
+      <img src="./imagens/codigo.svg">
     </div>
   </div>
-
+  </div>
   <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
+        <h2>Produtos</h2>
+        <p class="text-justify">Nosso processo de configuração otimizada economiza o tempo de sua equipe ao executar e dimensionar aplicativos distribuídos, cargas de trabalho de aprendizado de máquina, serviços hospedados, sites de clientes ou ambientes de CI / CD.</p>
+        <p><a class="btn btn-padrao" href="produtos.html" role="button">Conheça mais &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Parceiros</h2>
+        <p class="text-justify">Quando você se torna um parceiro, você está se juntando a uma empresa global amada por uma comunidade de mais de 1 milhões de desenvolvedores e empresas em todos os lugares do mundo.</p>
+        <p><a class="btn btn-padrao" href="parceiros.html" role="button">Conheça mais &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
         <h2>Sobre</h2>
-        <p>venha descobrir mais sobre nossa empresa.</p>
-        <p><a class="btn btn-secondary" href="sobre.html" role="button">Conheça mais &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Serviços</h2>
-        <p>venha descobrir mais sobre nossos serviços.</p>
-        <p><a class="btn btn-secondary" href="servicos.html" role="button">Conheça mais &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Soluções</h2>
-        <p>venha descobrir mais sobre nossas soluções.</p>
-        <p><a class="btn btn-secondary" href="solucoes.html" role="button">Conheça mais &raquo;</a></p>
+        <p class="text-justify">Temos a missão de simplificar a computação em nuvem, para que os desenvolvedores e suas equipes possam dedicar mais tempo à criação de software.</p>
+        <p><a class="btn btn-padrao" href="sobre.html" role="button">Conheça mais &raquo;</a></p>
       </div>
     </div>
-
     <hr>
-
   </div>
-
 </main>
-
 <footer class="container">
-  <p>&copy; Empresa Linux 2019</p>
+  <p>&copy;Deploy 2019</p>
 </footer>
 </html>
